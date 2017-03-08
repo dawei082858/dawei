@@ -1,0 +1,184 @@
+@import url('reset.css');
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 62.5%;
+}
+.wrap {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.wrap header {
+  width: 100%;
+  height: 3.5rem;
+  background: #f7f7f7;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  border-bottom: 1px solid #bfbfbf;
+  line-height: 3.5rem;
+  text-align: center;
+}
+.wrap header h1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.wrap header .left {
+  width: 1.2rem;
+  height: 3.5rem;
+  background: null;
+  margin-left: 1rem;
+}
+.wrap header .left img {
+  width: 0.8rem;
+  height: auto;
+  background: null;
+}
+.wrap header .right {
+  width: 1.7rem;
+  height: 3.5rem;
+  background: null;
+  margin-right: 1rem;
+}
+.wrap header .right img {
+  width: 1.6rem;
+  height: auto;
+  background: null;
+}
+.wrap section {
+  -webkit-box-flex: 1;
+  background: #f2f2f2;
+}
+.wrap section::-webkit-scrollbar {
+  width: 0;
+}
+.wrap section .main_two .section_main {
+  width: 100%;
+  height: 2.2rem;
+  background: #f2f2f2;
+  padding: 0 1.2rem;
+  line-height: 2.2rem;
+}
+.wrap section .main_two .section_main p span {
+  color: #FF592B;
+}
+.wrap section .main_two .section_main_dan {
+  padding-left: 1rem;
+  background: #fff;
+}
+.wrap section .main_two .section_main_dan .main2 {
+  width: 100%;
+  height: 3.3rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 3.3rem;
+  border-bottom: 1px solid #898989;
+}
+.wrap section .main_two .section_main_dan .main2 h2 {
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+}
+.wrap section .main_two .section_main_dan .main2 h2 span {
+  color: #BFBFBF;
+}
+.wrap section .main_two .section_main_dan .main2 b {
+  padding-right: 1.2rem;
+}
+.wrap section .main_two .section_main_dan .main2 b img {
+  width: auto;
+  height: 1.4rem;
+  background: none;
+  vertical-align: middle;
+}
+.wrap section .main_two .section_main_dan .main3 {
+  width: 100%;
+  height: 3.3rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  line-height: 3.3rem;
+}
+.wrap section .main_two .section_main_dan .main3 h2 {
+  -webkit-box-flex: 1;
+  font-size: 1.4rem;
+}
+.wrap section .main_two .section_main_tupian {
+  width: 100%;
+  height: 9rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  padding: 0 1.2rem;
+}
+.wrap section .main_two .section_main_tupian .section_main_img img {
+  width: auto;
+  height: 8rem;
+  background: none;
+}
+.wrap section .main_two .section_main_tupian .section_main_jia {
+  width: 8rem;
+  height: 8rem;
+  background: none;
+  margin-left: .5rem;
+  border: 1px solid #BFBFBF;
+  text-align: center;
+  font-size: 8rem ;
+  color: #BFBFBF;
+}
+.wrap section .main_two .section_main_shuo {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  margin-top: 0.5rem;
+  padding: 0 0.5rem;
+}
+.wrap section .main_two .section_main_shuo ul {
+  padding: 0.8rem 0;
+  float: left;
+}
+.wrap section .main_two .section_main_shuo ul li img {
+  width: 0.9rem;
+  height: auto;
+  background: null;
+  margin-right: 0.3rem;
+}
+.wrap section .main_two .section_main_shuo p {
+  float: right;
+  line-height: 4.5rem;
+}
+.wrap section .main_two .section_main_shuo p img {
+  width: 0.8rem;
+  height: auto;
+  background: null;
+}
+.wrap footer {
+  width: 100%;
+  height: 4rem;
+  background: #ffffff;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.wrap footer div {
+  width: 8rem;
+  height: 4rem;
+  background: #ff7d1b;
+  line-height: 4rem;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+}
+.wrap footer p {
+  -webkit-box-flex: 1;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: #6e6e6e;
+}
+.wrap footer p span {
+  color: #ff7d1b;
+}

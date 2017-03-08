@@ -1,0 +1,168 @@
+@import url('reset.css');
+//封装宽高背景
+.w(@w,@h,@b){
+    width: @w;
+    height: @h;
+    background: @b;
+}
+//封装浮动
+.f(@f){
+    float: @f;
+}
+//封装定位
+.p(@p){
+    position: @p;
+}
+html,body,.wrap{
+    width: 100%;
+    height: 100%;
+}
+html{
+    font-size: 62.5%;
+}
+.box(@dir:vertical){
+    display: -webkit-box;
+    -webkit-box-orient: @dir;
+}
+.wrap{
+    .box;
+    header{
+        .w(100%,3.5rem,#f7f7f7);
+       .box(horizontal);
+        border-bottom: 1px solid #bfbfbf;
+        line-height: 3.5rem;
+        text-align: center;
+        h1{
+            -webkit-box-flex: 1;
+            text-align: center;
+            font-size: 1.6rem;
+        }
+        .left{
+            .w(1.2rem,3.5rem,null);
+            margin-left: 1rem;
+            img{
+                .w(0.8rem,auto,null);
+            }
+        }
+        .right{
+            .w(1.7rem,3.5rem,null);
+            margin-right: 1rem;
+            img{
+                .w(1.6rem,auto,null);
+            }
+        }
+    }
+    section{
+        -webkit-box-flex: 1;
+        background: #f2f2f2;
+        &::-webkit-scrollbar{width: 0;}
+        .main_two{
+               .section_main{
+                   .w(100%,2.2rem,#f2f2f2);
+                   padding: 0 1.2rem;
+                   line-height: 2.2rem;
+                   p{
+                       span{
+                           color: #FF592B;
+                       }
+                   }
+               }
+                .section_main_dan{
+                    padding-left: 1rem;
+                    background: #fff;
+                    .main2{
+                        .w(100%,3.3rem,#fff);
+                        .box(horizontal);
+                        line-height: 3.3rem;
+                        border-bottom: 1px solid #898989;
+                        h2{
+                            -webkit-box-flex: 1;
+                            font-size: 1.4rem;
+                            span{
+                                color: #BFBFBF;
+                            }
+                        }
+                        b{
+                            padding-right: 1.2rem;
+                            img{
+                                .w(auto,1.4rem,none); 
+                                vertical-align: middle;
+                            }
+                        }
+                    } 
+                    .main3{
+                        .w(100%,3.3rem,#fff);
+                        .box(horizontal);
+                        line-height: 3.3rem;
+                        h2{
+                            -webkit-box-flex: 1;
+                            font-size: 1.4rem;
+                        }
+                    }       
+                }
+                .section_main_tupian{
+                    .w(100%,9rem,#fff);
+                    .box(horizontal);
+                    padding: 0 1.2rem;
+                    .section_main_img{
+                        img{
+                            .w(auto,8rem,none);
+                        }
+                    }
+                    .section_main_jia{
+                        .w(8rem,8rem,none);
+                        margin-left: .5rem;
+                        border: 1px solid #BFBFBF;
+                        text-align: center;
+                        font-size:8rem ;
+                        color: #BFBFBF;    
+                    }
+                }
+                .section_main_shuo{
+                    .w(100%,4rem,#fff);
+                    margin-top: 0.5rem;
+                    padding: 0 0.5rem;
+                    ul{
+                        padding: 0.8rem 0;
+                        float: left;
+                        li{
+                            img{
+                                .w(0.9rem,auto,null);
+                                margin-right: 0.3rem;
+                            }
+                        }
+                    }
+                    p{
+                        float: right;
+                        line-height: 4.5rem;
+                        img{
+                            .w(0.8rem,auto,null);
+                        }
+                    }
+                }
+            }
+    }
+    footer{
+        .w(100%,4rem,#fff);
+        
+        .box(horizontal);
+        div{
+            .w(8rem,4rem,#ff7d1b);
+            line-height: 4rem;
+            color: #fff;
+            text-align: center;
+            font-size: 1.6rem;
+        }
+        p{
+            -webkit-box-flex: 1;
+            line-height: 4rem;
+            text-align: center;
+            font-size: 1.4rem;
+            color: #6e6e6e;
+            span{
+                color: #ff7d1b;
+            }
+        }
+    }
+ 
+}

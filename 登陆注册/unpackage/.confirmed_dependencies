@@ -1,0 +1,13 @@
+{
+	"index.html": {
+		"resources": [
+			"img/images/a_12.png",
+			"img/images/a_10.png",
+			"img/images/a_07.png",
+			"img/images/a_03.png",
+			"css/style.css",
+			"img/images/a1.png",
+			"css/reset.css"
+		]
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"index.html": {
+		"resources": [
+			"shouye.img/a_14.png",
+			"shouye.img/a_54.png",
+			"shouye.img/a_57.png",
+			"shouye.css/reset.css",
+			"shouye.img/a_21.png",
+			"shouye.img/a_60.png",
+			"shouye.img/a_16.png",
+			"shouye.img/a_27.png",
+			"shouye.img/a_49.png",
+			"shouye.img/w_03.png",
+			"shouye.img/a_29.png",
+			"店铺与个人信息/head portrait.html",
+			"shouye.img/a_03.png",
+			"shouye.img/a_51.png",
+			"shouye.img/a_10.png",
+			"shouye.img/a_42.png",
+			"shouye.img/a_07.png",
+			"shouye.img/a_23.png",
+			"shouye.css/project.css",
+			"shouye.img/a_33.png",
+			"shouye.img/a_37.png"
+		],
+		"refer": [
+			"店铺与个人信息/head portrait.html"
+		]
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"index.html": {
+		"resources": [
+			"js/jquery-3.1.1.js",
+			"img/images/12_16.png",
+			"img/images/31.png",
+			"img/images/12_03.png",
+			"css/style.css",
+			"img/images/12_06.png",
+			"img/images/12_29.png",
+			"img/images/33.png",
+			"img/images/12_08.png",
+			"img/images/g1_05.png",
+			"img/images/12_11.png",
+			"img/images/35.png",
+			"img/images/12_19.png",
+			"img/images/g1_03.png",
+			"img/images/222_03.png",
+			"css/reset.css",
+			"img/images/12_13.png",
+			"img/images/12_25.png",
+			"img/images/0008_03.png",
+			"img/images/0008_07.png",
+			"img/images/228_03.png"
+		]
+	}
+}
